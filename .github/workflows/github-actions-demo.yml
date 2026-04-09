@@ -3,4 +3,8 @@ on:
    push:
      branches: [main]
      workflow_dispatch:
+
+     jobs: Build
+      runs-on: Ubuntu 24.04
+      
      
