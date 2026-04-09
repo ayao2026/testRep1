@@ -2,3 +2,5 @@ name: GitHub actions Demo
 on:
    push:
      branches: [main]
+     workflow_dispatch:
+     
